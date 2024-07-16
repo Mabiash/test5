@@ -828,7 +828,7 @@ section:nth-child(2) {
 @media (max-width: 991.98px) {
   header .logo-con img {
     height: 85% !important;
-    width: 4.5rem;
+    width: 4.3rem;
   }
   .headContent {
     height: 75px !important;
@@ -1136,6 +1136,10 @@ section:nth-child(2) {
     text-align: center;
   }
 
+  .service-con h3 {
+   width: 90%;
+  }
+
   .api-des {
     background-color: ;
     width: 100%;
@@ -1147,6 +1151,7 @@ section:nth-child(2) {
   }
   .api-img-con {
     height: 12rem;
+    min-width: 17rem;
     width: 50%;
     margin: 0;
   }
@@ -1176,8 +1181,10 @@ section:nth-child(2) {
     margin-top: 1rem;
   }
 
-  .abt-information h2 {
+  .abt-information h2,
+  .service-con h3  {
     font-size: 18px;
+ 
   }
 
   .abt-information .intro-container .personal-info {
@@ -1195,10 +1202,20 @@ section:nth-child(2) {
   .abt-imges {
     margin-top: 1rem !important;
   }
-
+  .service-con h3 {
+    margin-bottom: 3rem;
+  }
+  .api-des{
+    margin-bottom: 1rem;
+  }
   .who-we-con .w-des p,
-  .my-tech-skills p {
+  .my-tech-skills p,
+  .api-des p {
     font-size: 14px;
+  }
+
+  .view-works{
+    display: none;
   }
 
   .who-we-are h4 {
